@@ -832,6 +832,12 @@ section.testimonials ul li p {
   margin-top: 30px;
 }
 
+@media (max-width: 568px) {
+  section.testimonials ul li q {
+    font-weight: 400;
+  }
+}
+
 /* FONTS */
 /* COLORS */
 /* MOBILE */
