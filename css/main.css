@@ -166,7 +166,7 @@ header ul.language {
   width: 100%;
   text-align: right;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.8em;
   padding-bottom: 1.7em;
   color: #b0b0b0;
@@ -401,8 +401,14 @@ section.main-info .info {
   position: absolute;
   top: 0;
   z-index: 2;
-  width: 90%;
+  width: 100%;
   text-align: center;
+}
+
+@media (max-width: 568px) {
+  section.main-info .info {
+    width: 90%;
+  }
 }
 
 section.main-info .info h1 {
@@ -440,7 +446,7 @@ section.main-info .info h1 p:first-child {
 }
 
 section.main-info .info h1 p:last-child {
-  font-weight: 300;
+  font-weight: 400;
   color: #818181;
   font-size: 0.429em;
 }
@@ -458,7 +464,7 @@ section.main-info img {
 
 @media (max-width: 568px) {
   section.main-info img {
-    margin-top: 13.5em;
+    margin-top: 15em;
   }
 }
 
@@ -483,6 +489,7 @@ section.main-info img {
     font-size: 1.3em;
     margin-top: 5px;
     padding: 0.5em 1.1em 0.6em 1.1em;
+    font-weight: 400;
   }
 }
 
@@ -496,7 +503,7 @@ section.main-info img {
 
 @media (max-width: 568px) {
   .main-button {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-top: 5px;
     padding: 0.5em 1.1em 0.6em 1.1em;
   }
@@ -581,7 +588,8 @@ section.secondary-info p {
 
 @media (max-width: 568px) {
   section.secondary-info p {
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-weight: 400;
   }
 }
 
@@ -591,7 +599,7 @@ section.secondary-info img {
 
 @media (max-width: 568px) {
   section.secondary-info img {
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -649,7 +657,7 @@ section.features p {
 
 @media (max-width: 568px) {
   section.features p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 }
 
@@ -706,7 +714,8 @@ section.features ul.items-features p {
 
 @media (max-width: 568px) {
   .page-button {
-    font-size: 1.1em;
+    font-size: 1.3em;
+    font-weight: 400;
   }
 }
 
@@ -728,7 +737,7 @@ section.stadistic-sales img {
 
 @media (max-width: 568px) {
   section.stadistic-sales img {
-    width: 50%;
+    width: 55%;
   }
 }
 
@@ -745,7 +754,7 @@ section.stadistic-sales h3 {
 
 @media (max-width: 568px) {
   section.stadistic-sales h3 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }
 
@@ -765,7 +774,7 @@ section.testimonials {
 
 @media (max-width: 1199px) {
   section.testimonials {
-    background: #4672ad;
+    background: #91cd44;
     background-image: none;
   }
 }
@@ -802,6 +811,10 @@ section.testimonials ul li {
   section.testimonials ul li:first-child {
     padding-top: 40px;
   }
+}
+
+section.testimonials ul li q {
+  line-height: 27px;
 }
 
 section.testimonials ul li q, section.testimonials ul li p {
@@ -917,6 +930,7 @@ ul.footer-links li ul li a {
   color: #818181;
   -webkit-transition: color 0.3s ease, color 0.3s ease;
           transition: color 0.3s ease, color 0.3s ease;
+  font-weight: 400;
 }
 
 ul.footer-links li ul li a:hover {
