@@ -706,6 +706,12 @@ section.features ul.items-features p {
   margin: 0 auto;
 }
 
+@media (max-width: 568px) {
+  section.features ul.items-features p {
+    width: 90%;
+  }
+}
+
 .page-button {
   font-size: 1.25em;
   letter-spacing: 0;
@@ -813,8 +819,11 @@ section.testimonials ul li {
   }
 }
 
-section.testimonials ul li q {
-  line-height: 27px;
+@media (max-width: 568px) {
+  section.testimonials ul li q {
+    line-height: 27px;
+    font-weight: 400;
+  }
 }
 
 section.testimonials ul li q, section.testimonials ul li p {
