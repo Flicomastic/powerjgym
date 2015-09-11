@@ -1,1 +1,1 @@
-$(function(){var n=$(".pull"),e=$(".main-menu");$(n).on("click",function(n){n.preventDefault(),e.slideToggle()})});
+$(function(){var n=$(".pull"),e=$(".main-menu");$(n).on("click",function(n){n.preventDefault(),e.slideToggle()})}),$(window).resize(function(){var n=$(".main-menu"),e=$(window).width();e>769&&n.removeAttr("style")});
