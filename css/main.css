@@ -819,13 +819,6 @@ section.testimonials ul li {
   }
 }
 
-@media (max-width: 568px) {
-  section.testimonials ul li q {
-    line-height: 27px;
-    font-weight: 400;
-  }
-}
-
 section.testimonials ul li q, section.testimonials ul li p {
   color: #fff;
   font-family: "Source Sans Pro", sans-serif;
