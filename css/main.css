@@ -34,13 +34,7 @@ header {
 
 @media (max-width: 768px) {
   header {
-    padding: 1.3em 0 3em 0;
-  }
-}
-
-@media (max-width: 568px) {
-  header {
-    padding: 1.3em 0 2em 0;
+    padding: 1.3em 0 1em 0;
   }
 }
 
@@ -70,13 +64,15 @@ header {
 
 @media (max-width: 768px) {
   .logo-header img {
-    width: 45%;
+    width: 30%;
+    float: left;
   }
 }
 
 @media (max-width: 568px) {
   .logo-header img {
-    width: 70%;
+    width: 50%;
+    margin-top: 6px;
   }
 }
 
@@ -377,10 +373,27 @@ header nav ul a.current:hover:after {
 
 @media (max-width: 768px) {
   .menu-mobile {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    float: right;
     text-align: center;
   }
+}
+
+.menu-mobile a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #91cd44;
+  letter-spacing: -1px;
+  border: 1px solid #91cd44;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0.2em 1em 0.4em 1em;
+  line-height: 1.4;
+}
+
+.menu-mobile a:hover, .menu-mobile a:active, .menu-mobile a:visited {
+  text-decoration: none;
 }
 
 .menu-mobile img {
@@ -454,17 +467,18 @@ section.main-info .info h1 p:last-child {
 @media (max-width: 568px) {
   section.main-info .info h1 p:last-child {
     line-height: 30px;
+    font-size: 0.33em;
   }
 }
 
 section.main-info img {
   width: 100%;
-  margin: 10em 0 4.5em 0;
+  margin: 10em 0 8.4em 0;
 }
 
 @media (max-width: 568px) {
   section.main-info img {
-    margin-top: 15em;
+    margin-top: 9.5em;
   }
 }
 
@@ -504,7 +518,7 @@ section.main-info img {
 @media (max-width: 568px) {
   .main-button {
     font-size: 1.3em;
-    margin-top: 5px;
+    margin-top: 180px;
     padding: 0.5em 1.1em 0.6em 1.1em;
   }
 }
@@ -614,13 +628,13 @@ section.secondary-info img {
 
 section.features {
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 section.features h2 {
   display: block;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 4em;
+  font-size: 2.5em;
   font-weight: 300;
   color: #636363;
   padding: 80px 0 40px 0;
@@ -657,7 +671,7 @@ section.features p {
 
 @media (max-width: 568px) {
   section.features p {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 }
 
@@ -710,6 +724,139 @@ section.features ul.items-features p {
   section.features ul.items-features p {
     width: 90%;
   }
+}
+
+section.why-buy {
+  text-align: center;
+  padding-bottom: 100px;
+  background: #efefef;
+}
+
+@media (max-width: 568px) {
+  section.why-buy {
+    padding-bottom: 60px;
+  }
+}
+
+section.why-buy img {
+  position: relative;
+  top: -100px;
+}
+
+@media (max-width: 768px) {
+  section.why-buy img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 568px) {
+  section.why-buy img {
+    width: 90%;
+  }
+}
+
+section.why-buy p:first-child {
+  font-size: 1em;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+section.why-buy h2 {
+  display: block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 2.5em;
+  font-weight: 300;
+  color: #636363;
+  margin: -99px 0 52px 0;
+}
+
+@media (max-width: 1199px) {
+  section.why-buy h2 {
+    font-size: 2.3em;
+  }
+}
+
+@media (max-width: 991px) {
+  section.why-buy h2 {
+    font-size: 2.1em;
+  }
+}
+
+@media (max-width: 768px) {
+  section.why-buy h2 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 568px) {
+  section.why-buy h2 {
+    font-size: 1.5em;
+    line-height: 35px;
+  }
+}
+
+section.why-buy .text {
+  width: 66%;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 5px;
+  padding: 40px 40px 70px 40px;
+  display: block;
+}
+
+@media (max-width: 1199px) {
+  section.why-buy .text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  section.why-buy .text {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  section.why-buy .text {
+    width: 85%;
+  }
+}
+
+@media (max-width: 568px) {
+  section.why-buy .text {
+    width: 100%;
+    padding: 40px 40px 70px 40px;
+  }
+}
+
+section.why-buy .text .items {
+  font-size: 1em;
+  line-height: 30px;
+}
+
+section.why-buy .text ul {
+  margin-bottom: 60px;
+}
+
+section.why-buy p, section.why-buy ul li {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #636363;
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 24px;
+  text-align: left;
+}
+
+@media (max-width: 568px) {
+  section.why-buy p, section.why-buy ul li {
+    font-size: 1.1em;
+  }
+}
+
+section.why-buy ul li {
+  list-style-type: circle;
+  margin-left: 17px;
+  margin-top: 16px;
 }
 
 .page-button {
@@ -780,7 +927,7 @@ section.testimonials {
 
 @media (max-width: 1199px) {
   section.testimonials {
-    background: #91cd44;
+    background: #4672ad;
     background-image: none;
   }
 }
@@ -832,7 +979,7 @@ section.testimonials ul li p {
   margin-top: 30px;
 }
 
-@media (max-width: 568px) {
+@media (max-width: 768px) {
   section.testimonials ul li q {
     font-weight: 400;
   }
