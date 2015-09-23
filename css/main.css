@@ -141,7 +141,7 @@ header .button-buy {
   }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
   header .button-buy a {
     font-size: 1em;
   }
@@ -232,7 +232,7 @@ header nav ul li:last-child {
   }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
   header nav ul li:last-child {
     width: 3%;
   }
@@ -263,7 +263,7 @@ header nav ul a {
   }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
   header nav ul a {
     font-size: 1em;
   }
@@ -1353,20 +1353,378 @@ section.main-title-jelqing-video img {
 
 p.quote {
   text-align: center !important;
-  font-size: 2.5em !important;
+  font-size: 2em !important;
   color: #b1b1b1 !important;
+  font-family: "Georgia", serif !important;
+  line-height: 55px !important;
+  width: 80%;
+  margin: 0 auto !important;
+}
+
+@media (max-width: 1199px) {
+  p.quote {
+    font-size: 1.5em !important;
+    line-height: 1.7em !important;
+  }
 }
 
 @media (max-width: 568px) {
   p.quote {
-    font-size: 1.8em !important;
+    font-size: 1.4em !important;
   }
+}
+
+.get {
+  margin-top: 70px;
 }
 
 @media (max-width: 568px) {
   p.subtitle-jelq-video {
     margin-top: 88px !important;
   }
+}
+
+/* FONTS */
+/* COLORS */
+/* MOBILE */
+/****************** Index ******************/
+section.main-title-jelq-device {
+  text-align: center;
+  margin-top: 60px;
+}
+
+@media (max-width: 568px) {
+  section.main-title-jelq-device {
+    margin-top: 20px;
+  }
+}
+
+section.main-title-jelq-device .info {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 568px) {
+  section.main-title-jelq-device .info {
+    width: 90%;
+  }
+}
+
+section.main-title-jelq-device .info h1 {
+  color: #333;
+  line-height: 50px;
+  font-size: 4.3em;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@media (max-width: 1199px) {
+  section.main-title-jelq-device .info h1 {
+    margin-top: -8px;
+  }
+}
+
+@media (max-width: 768px) {
+  section.main-title-jelq-device .info h1 {
+    font-size: 3.5em;
+  }
+}
+
+@media (max-width: 568px) {
+  section.main-title-jelq-device .info h1 {
+    font-size: 2em;
+    margin-top: 8px;
+  }
+}
+
+section.main-title-jelq-device .info h1 p {
+  text-transform: uppercase;
+}
+
+section.main-title-jelq-device .info h1 p span {
+  color: #5e99e8 !important;
+}
+
+section.main-title-jelq-device .info h1 p:first-child {
+  font-weight: 900;
+  letter-spacing: -3px;
+}
+
+@media (max-width: 568px) {
+  section.main-title-jelq-device .info h1 p:first-child {
+    line-height: 41px;
+  }
+}
+
+section.main-title-jelq-device .info h1 p:last-child {
+  font-weight: 300;
+  font-size: 0.429em;
+}
+
+@media (max-width: 568px) {
+  section.main-title-jelq-device .info h1 p:last-child {
+    line-height: 30px;
+    font-size: 0.5em;
+  }
+}
+
+section.main-title-jelq-device img {
+  margin-top: -73px;
+  margin-bottom: -20px;
+}
+
+@media (max-width: 1199px) {
+  section.main-title-jelq-device img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  section.main-title-jelq-device img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 568px) {
+  section.main-title-jelq-device img {
+    margin-top: -1em;
+  }
+}
+
+section.text-content .container {
+  width: 710px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  section.text-content .container {
+    width: 95%;
+  }
+}
+
+section.text-content p.subtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #adadad;
+  font-weight: 300;
+  font-size: 1.7em;
+  line-height: inherit;
+}
+
+@media (max-width: 768px) {
+  section.text-content p.subtitle {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 568px) {
+  section.text-content p.subtitle {
+    font-size: 1.3em;
+  }
+}
+
+section.text-content p.sub-jelq-device {
+  width: 130%;
+  text-align: center;
+  margin-left: -102px;
+}
+
+@media (max-width: 1199px) {
+  section.text-content p.sub-jelq-device {
+    font-size: 1.5em;
+    width: 100%;
+    margin-left: inherit;
+  }
+}
+
+@media (max-width: 568px) {
+  section.text-content p.sub-jelq-device {
+    font-size: 1.3em;
+  }
+}
+
+section.text-content p {
+  font-family: "Georgia", serif;
+  color: #454545;
+  font-size: 1.2em;
+  line-height: 1.7em;
+  margin: 50px 0;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  section.text-content p {
+    font-size: 1em;
+  }
+}
+
+section.text-content .tour {
+  display: block;
+  margin-top: 5em;
+}
+
+section.text-content .tour div {
+  position: absolute;
+}
+
+section.text-content .tour .rounded-button {
+  margin-top: 2em;
+}
+
+.jelq-device-content {
+  margin-bottom: 9em;
+}
+
+.jelq-device-content02 {
+  margin-bottom: 9em;
+  margin-top: -2.3em;
+}
+
+.table > tbody > tr > th {
+  padding: 20px !important;
+  font-size: 0.9em !important;
+  font-weight: 300 !important;
+}
+
+.table > tbody > tr > th.left {
+  color: #5e99e8;
+}
+
+.table > thead > tr > th {
+  padding: 20px 0 25px 20px !important;
+}
+
+img.icons-device {
+  margin-bottom: 30px;
+}
+
+#cd-tour-trigger {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .pjg {
+    width: 100%;
+  }
+}
+
+.adult-video {
+  position: absolute;
+  z-index: 1;
+  background: rgba(67, 127, 223, 0.9);
+  width: 100%;
+  height: 99.2%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container-video {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 125%;
+  margin: 4em 0 0em -5.5em;
+}
+
+@media (max-width: 768px) {
+  .container-video {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.container-video p.advice {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3.5em;
+  letter-spacing: -2px;
+  margin: 170px 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .container-video p.advice {
+    margin: 90px 0 0 0;
+  }
+}
+
+@media (max-width: 568px) {
+  .container-video p.advice {
+    margin: 35px 0 0 0;
+    font-size: 2em;
+  }
+}
+
+.container-video span {
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: -10px;
+  display: block;
+}
+
+.container-video .fa-play-circle {
+  font-size: 5.2em;
+  color: #fff;
+  margin-top: 30px;
+}
+
+@media (max-width: 568px) {
+  .container-video .fa-play-circle {
+    font-size: 3em;
+    margin-top: 10px;
+  }
+}
+
+.bntplayPause {
+  position: absolute;
+  font-weight: 300;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 1em 1.5em;
+  cursor: pointer;
+  bottom: 30px;
+  left: 30px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.bntplayPause:hover {
+  color: #4c88e9;
+  text-decoration: none;
+  border-color: #4c88e9;
+}
+
+@media (max-width: 768px) {
+  .bntplayPause {
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+  }
+}
+
+.copy p {
+  text-align: center !important;
+  font-family: "Source Sans Pro", sans-serif !important;
+  font-weight: 300;
+  margin: 0 0 -29px 0 !important;
+  padding: 1em;
+  color: #b1b1b1 !important;
+}
+
+.content-page-btn {
+  margin: 5em 0 2em 0;
+}
+
+.content-page-btn a {
+  padding: 1em 1.4em;
+  font-weight: 300;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
 }
 
 /* FONTS */
