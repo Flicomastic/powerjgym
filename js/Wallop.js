@@ -1,3 +1,12 @@
+/**
+* Wallop.js
+*
+* @fileoverview Minimal JS library to show & hide things
+*
+* @author Pedro Duarte
+* @author http://pedroduarte.me/wallop
+*
+*/
 (function(global){
   function Wallop(selector, options) {
     if (!selector) { throw new Error('Missing selector. Refer to Usage documentation: https://github.com/peduarte/wallop#javascript'); }
