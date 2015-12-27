@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Jelqing Video - Penis enlargement exercises</title>
-    <meta name="description" content="Free video, Jelqing routine penis enlargement exercises, learn how to jelq.">
+    <title>Contact Jelqgym - Power J Gym</title>
+    <meta name="description" content="Contact Jelqgym.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
@@ -11,6 +11,42 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script language="javascript">
+
+      function MM_findObj(n, d) { //v4.01
+        var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+        d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+        if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+        for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+        if(!x && d.getElementById) x=d.getElementById(n); return x;
+      }
+      
+      function MM_validateForm() { //v4.0
+        var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+        for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+        if (val) { nm=val.name; if ((val=val.value)!="") {
+          
+          //............................
+          if (test.indexOf('isCmb')!=-1) { p=val.indexOf('-'); 
+          if (p=0 || p==(val.length-1) || p=='-') errors+='- '+nm+' required.\n';
+          }
+          
+          //............................
+          
+          
+          else if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+'  must contain a valid e-mail.\n';
+          } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a numbers.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+        } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' required.\n'; }
+        } if (errors) alert(""+errors);
+        document.MM_returnValue = (errors == '');
+      }
+
+    </script>
   </head>
   <body>
     <header>
@@ -37,53 +73,40 @@
         </nav>
       </div>
     </header>
-    <section class="main-title-jelqing-video">
-      <div class="container relative"><img src="images/title-jelqing.png" alt="Jelq">
+    <section class="main-title-contact">
+      <div class="container">
         <div class="info">
           <h1>
-            <p>Jelqing video</p>
-            <p>How does the power j gym work?</p>
+            <p>Contact us</p>
+            <p>How can we help you?</p>
           </h1>
         </div>
       </div>
     </section>
     <section class="text-content">
       <div class="container">
-        <p class="subtitle text-center subtitle-jelq-video">The easiest way to enlarge your penis with exercises!</p>
-        <div class="container-video">
-          <div class="adult-video btn-play">
-            <p class="advice">Adult content!</p><span>Viewer discretion is advised</span><a href="#" class="adult-play"><i class="fa fa-play-circle"></i></a>
-          </div>
-          <div class="control"><a class="btn-play bntplayPause">Play / Pause</a></div>
-          <video id="manual" width="100%" controls>Your browser does not support the video tag.
-            <loop></loop>
-            <source src="jelqing-video/jelqing-video-01.mp4" type="video/mp4">
-            <source src="jelqing-video/jelqing-video-01.ogv" type="video/ogg">
-            <p>Jelqing video exersises whit Power J Gym - Jelq device</p>
-          </video>
-        </div>
-        <div class="copy">
-          <p><em>Jelqing video exersises whit Power J Gym - Jelq device</em></p>
-        </div>
-        <p>1. As you can see in this video, the penis must be introduced between the rollers at the level of the base of the penis (where the penis meet the abdomen). With your fingers in the handles you must close the device which will make the rollers apply pressure to the penis, keeping the current blood in the whole length of the member, between the bottom and glans. The whole surface of the penis will be covered softly.</p>
-        <div class="container-video">
-          <div class="adult-video btn-play2">
-            <p class="advice">Adult content!</p><span>Viewer discretion is advised</span><a href="#" class="adult-play"><i class="fa fa-play-circle"></i></a>
-          </div>
-          <div class="control"><a class="btn-play2 bntplayPause">Play / Pause</a></div>
-          <video id="manual2" width="100%" controls>Your browser does not support the video tag.
-            <loop></loop>
-            <source src="jelqing-video/jelqing-video-02.mp4" type="video/mp4">
-            <source src="jelqing-video/jelqing-video-02.ogv" type="video/ogg">
-            <p>Jelqing video exersises whit Power J Gym - Jelq device</p>
-          </video>
-        </div>
-        <div class="copy">
-          <p><em>Jelqing video exersises whit Power J Gym - Jelq device</em></p>
-        </div>
-        <p>2. As has been previously stated , the PowerJGym works with the same principle of Jelq, which is to pump blood inside the cavities of the penis in order to yield and expand them, just as when muscles are trained , they grow. Muscles grow after the breach of cells and the generation of bigger and stronger ones and the same thing happens with the cells of the penis. Simple.</p>
-        <p class="quote"><em>"Only 15 to 30 minutes per day"</em></p>
-        <div class="content-page-btn"><a href="jelq-device-power-j-gym.html"><img src="images/jelq-device.png" alt="Power J Gym Jelqing Device" class="image-button-bottom"></a><a href="jelq-device-power-j-gym.html" class="rounded-button page-button">Discover all features</a></div>
+        <?php
+            $_post;
+            $_request;
+            $nom=$_REQUEST['name'];
+            $ema=$_REQUEST['email'];
+            $cou=$_REQUEST['country'];
+            $cit=$_REQUEST['city'];
+            $abo=$_REQUEST['about'];
+            $com=$_REQUEST['comments'];
+            
+            mail("info@jelqgym.com","Comments from JelqGym.com","Comments from JelqGym.com:
+            Name: $nom
+            Email: $ema
+            Country: $cou
+            City: $cit
+            Subject: $abo
+            Comments: $com
+            
+            ","From: $ema");
+        ?>
+        <p class="text-center">Thank you. Your message has been sent!</p>
+        <p>We will respond to you soon. If you don't hear from us <strong>please check your spam box !</strong></p>
       </div>
     </section>
     <footer>

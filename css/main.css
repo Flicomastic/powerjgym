@@ -1271,6 +1271,10 @@ video::-webkit-media-controls {
   display: none !important;
 }
 
+.image-button-bottom {
+  width: 80%;
+}
+
 /* FONTS */
 /* COLORS */
 /* MOBILE */
@@ -2790,6 +2794,10 @@ section.main-title-fq .info h1 p:first-child {
   section.main-title-fq .info h1 p:first-child {
     line-height: 41px;
   }
+}
+
+.containter-old-model img {
+  width: 100%;
 }
 
 /* FONTS */
