@@ -747,6 +747,23 @@ section.why-buy {
   }
 }
 
+section.old-model h2 {
+  position: relative;
+}
+
+section.old-model h2::before {
+  content: url("../images/Power-J-Gym-Usa.png");
+  position: relative;
+  top: 8px;
+  left: -11px;
+}
+
+@media (max-width: 568px) {
+  section.old-model img {
+    top: -81px !important;
+  }
+}
+
 section.why-buy img {
   position: relative;
   top: -100px;
