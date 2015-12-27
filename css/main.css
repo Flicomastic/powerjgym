@@ -38,6 +38,10 @@ header {
   }
 }
 
+header .fa-lock {
+  color: #8cc444;
+}
+
 .logo-header {
   width: 17%;
   float: left;
